@@ -5,15 +5,12 @@ This a React application to track common natural disaster like wildfire, volcano
 ## Usage
 
 `npm install
-
 npm start`
 
 ## Build
 
 `npm run build
-
 or
-
 yarn build`
 
 ## Using API Keys
