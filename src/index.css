@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+marquee{
+  background-color: rgb(255, 0, 0);
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: -5px;
+  z-index: 10;
+}
+
+.map{
+  width: 100%;
+  height: calc(100vh - 30px);
+}
+
+.location-icon{
+  font-size: 20px;
+  color: rgb(255, 55, 0);
+}
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title{
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.location-info{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  right: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.783);
+  border-radius: 10px;
+  color: white;
+}
+
+.location-info ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-info li{
+  padding: 5px 0;
+}
